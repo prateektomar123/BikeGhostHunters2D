@@ -6,7 +6,7 @@ using UnityEngine;
 public class ScoreController : MonoBehaviour
 {
     public TMP_Text scoreText;
-    public int score;
+    [SerializeField]private int score;
     private void Start() {
         UpdateTextUI();
     
